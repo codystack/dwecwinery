@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Cta from '../components/Cta'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
@@ -30,6 +31,8 @@ export default function About() {
                     </div>
                 </div>
             </section>
+        
+        <Cta />
 
         <Footer />
     </>

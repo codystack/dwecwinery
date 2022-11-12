@@ -30,18 +30,18 @@ export default function Home() {
             {/* Text */}
             <div className="col-xl-5 col-md-6 d-flex flex-column order-md-1">
                 <div className="text-center text-md-start pt-4 pt-sm-5 pt-xl-0 mt-2 mt-sm-0 mt-lg-auto">
-                <h1 className="display-3 mb-4">Buy Trade and Store in One App</h1>
-                <p className="fs-lg mb-0 d-md-none d-xl-block">Odio venenatis a, non egestas ut ultrices ultrices quis orci ipsum eu tellus tempor sed amet mauris pellentesque ut vitae.</p>
-                <div className="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start pt-2 mt-4 mt-md-5">
-                    <a href="#" className="btn btn-dark btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3">
-                    <img src="assets/img/market/appstore-light.svg" className="light-mode-img" width={124} alt="App Store" />
-                    <img src="assets/img/market/appstore-dark.svg" className="dark-mode-img" width={124} alt="App Store" />
-                    </a>
-                    <a href="#" className="btn btn-dark btn-lg px-3 py-2 mb-3">
-                    <img src="assets/img/market/googleplay-light.svg" className="light-mode-img" width={139} alt="Google Play" />
-                    <img src="assets/img/market/googleplay-dark.svg" className="dark-mode-img" width={139} alt="Google Play" />
-                    </a>
-                </div>
+                    <h1 className="display-3 mb-4">Buy Trade and Store in One App</h1>
+                    <p className="fs-lg mb-0 d-md-none d-xl-block">Odio venenatis a, non egestas ut ultrices ultrices quis orci ipsum eu tellus tempor sed amet mauris pellentesque ut vitae.</p>
+                    <div className="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start pt-2 mt-4 mt-md-5">
+                        <a href="#" className="btn btn-dark btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3">
+                        <img src="assets/img/market/appstore-light.svg" className="light-mode-img" width={124} alt="App Store" />
+                        <img src="assets/img/market/appstore-dark.svg" className="dark-mode-img" width={124} alt="App Store" />
+                        </a>
+                        <a href="#" className="btn btn-dark btn-lg px-3 py-2 mb-3">
+                        <img src="assets/img/market/googleplay-light.svg" className="light-mode-img" width={139} alt="Google Play" />
+                        <img src="assets/img/market/googleplay-dark.svg" className="dark-mode-img" width={139} alt="Google Play" />
+                        </a>
+                    </div>
                 </div>
                 <div className="d-sm-flex d-md-none d-lg-flex justify-content-center justify-content-md-start mt-auto pt-3 pt-md-0">
                 <div className="d-flex align-items-center w-100 pe-xxl-2 mb-2 mb-md-0">
