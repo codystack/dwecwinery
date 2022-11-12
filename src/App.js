@@ -3,6 +3,7 @@ import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Faq from './pages/Faq'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
+            <Route path='/faq' element={<Faq />} />
             <Route path='/contact' element={<Contact />} />
           </Routes>
         </ScrollToTop>

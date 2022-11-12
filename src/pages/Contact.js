@@ -1,4 +1,5 @@
 import React from 'react'
+import Cta from '../components/Cta'
 import Footer from '../components/Footer'
 import Navbarlight from '../components/Navbarlight'
 
@@ -68,6 +69,8 @@ export default function Contact() {
             </div>
             </div>
         </section>
+
+        <Cta />
 
         <Footer />
     </>

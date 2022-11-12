@@ -31,7 +31,7 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className="offcanvas-header border-top">
-                <a href="/" className="btn btn-primary w-100" target="_blank" rel="noopener">
+                <a href="#appDownload" className="btn btn-primary w-100">
                     <i className="bx bx-download fs-4 lh-1 me-1" />
                     &nbsp;Download App
                 </a>
@@ -40,7 +40,7 @@ export default function Navbar() {
             <button type="button" className="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon" />
             </button>
-            <a href="/" className="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
+            <a href="#appDownload" className="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex">
                 <i className="bx bx-download fs-5 lh-1 me-1" />
                 &nbsp;Download App
             </a>
