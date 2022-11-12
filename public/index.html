@@ -2,29 +2,122 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta name="author" content="ThankGod Okoro" />
+    <meta property="og:url" content="https://www.dwecwinery.com/" />
+    <meta property="og:type" content="website" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <!-- Vendor Styles -->
+    <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css"/>
+    <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css"/>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- Main Theme Styles -->
+    <link rel="stylesheet" media="screen" href="assets/css/style.css">
+
+    <!-- Page loading styles -->
+    <style>
+      .page-loading {
+          position: fixed;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          -webkit-transition: all .4s .2s ease-in-out;
+          transition: all .4s .2s ease-in-out;
+          background-color: #fff;
+          opacity: 0;
+          visibility: hidden;
+          z-index: 9999;
+        }
+        .dark-mode .page-loading {
+          background-color: #0b0f19;
+        }
+        .page-loading.active {
+          opacity: 1;
+          visibility: visible;
+        }
+        .page-loading-inner {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+          -webkit-transition: opacity .2s ease-in-out;
+          transition: opacity .2s ease-in-out;
+          opacity: 0;
+        }
+        .page-loading.active > .page-loading-inner {
+          opacity: 1;
+        }
+        .page-loading-inner > span {
+          display: block;
+          font-size: 1rem;
+          font-weight: normal;
+          color: #9397ad;
+        }
+        .dark-mode .page-loading-inner > span {
+          color: #fff;
+          opacity: .6;
+        }
+        .page-spinner {
+          display: inline-block;
+          width: 2.75rem;
+          height: 2.75rem;
+          margin-bottom: .75rem;
+          vertical-align: text-bottom;
+          border: .15em solid #b4b7c9;
+          border-right-color: transparent;
+          border-radius: 50%;
+          -webkit-animation: spinner .75s linear infinite;
+          animation: spinner .75s linear infinite;
+        }
+        .dark-mode .page-spinner {
+          border-color: rgba(255,255,255,.4);
+          border-right-color: transparent;
+        }
+        @-webkit-keyframes spinner {
+          100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+          }
+        }
+        @keyframes spinner {
+          100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+          }
+        }
+    </style>
+
+    <title>DWEC Winery&trade; :: Excellent Service; customer satisfaction</title>
+
+    <!-- Page loading scripts -->
+    <script>
+      (function () {
+        window.onload = function () {
+          const preloader = document.querySelector('.page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 1000);
+        };
+      })();
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +132,23 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- Back to top button -->
+    <a href="#top" class="btn-scroll-top" data-scroll>
+      <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+      <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+
+
+    <!-- Vendor Scripts -->
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/vendor/parallax-js/dist/parallax.min.js"></script>
+    <script src="assets/vendor/rellax/rellax.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="//code.tidio.co/dswtr3lgehbreoq0h7vk0fzowjqtpumm.js" async></script>
+
+    <!-- Main Theme Script -->
+    <script src="assets/js/theme.min.js"></script>
   </body>
 </html>
