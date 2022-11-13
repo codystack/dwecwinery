@@ -62,7 +62,7 @@ export default function Contact() {
                     <p className="pb-2 pb-sm-3 mb-3">If you need immediate assistance feel free to call us any time.</p>
                     </div>
                     <div className="card-footer border-0 p-0">
-                    <a href="tel:+2348058232688" className="btn btn-lg btn-primary">Call us</a>
+                    <a href="tel:+2347036254646" className="btn btn-lg btn-primary">Call us</a>
                     </div>
                 </div>
                 </div>

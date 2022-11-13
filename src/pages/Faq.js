@@ -105,7 +105,7 @@ export default function Faq() {
                                 </h2>
                                 <div id="q5" className="accordion-collapse collapse" aria-labelledby="q5-heading" data-bs-parent="#faq">
                                     <div className="accordion-body fs-sm pt-0">
-                                        <p className="mb-0">We accept all major credit and debit cards using <a href="http://paystack.com/" target="_blank" rel="noopener noreferrer">Paystack</a> payment gateway. You can also pay for drinks using the bank transfer option.</p>
+                                        <p className="mb-0">We accept all major credit and debit cards using <a href="http://paystack.com/" target="_blank" rel="noopener noreferrer">Paystack</a> payment gateway. You can also pay for drinks via bank transfer.</p>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@ export default function Faq() {
                                 </h2>
                                 <div id="q7" className="accordion-collapse collapse" aria-labelledby="q7-heading" data-bs-parent="#faq">
                                     <div className="accordion-body fs-sm pt-0">
-                                        <p className="mb-0">We work with any dispatch company or your choice and also recommend delivery company's for orders outside the state. Delivery agreement is reached after order has been made.</p>
+                                        <p className="mb-0">We work with any dispatch company or your choice and also recommend delivery company's for orders outside the state. Delivery agreement is reached after order has been made and payment confirmed.</p>
                                     </div>
                                 </div>
                             </div>
