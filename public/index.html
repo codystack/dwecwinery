@@ -119,6 +119,16 @@
         };
       })();
     </script>
+
+    <script type="text/javascript">
+      window.onload = function () {
+          OpenBootstrapPopup();
+      };
+      function OpenBootstrapPopup() {
+          $("#orderModal").modal('show');
+      }
+    </script>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -148,13 +158,5 @@
     <!-- Main Theme Script -->
     <script src="assets/js/theme.min.js"></script>
 
-    <script type="text/javascript">
-        window.onload = function () {
-            OpenBootstrapPopup();
-        };
-        function OpenBootstrapPopup() {
-            $("#orderModal").modal('show');
-        }
-    </script>
   </body>
 </html>
