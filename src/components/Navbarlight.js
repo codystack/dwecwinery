@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Navbarlight() {
   return (
@@ -8,7 +8,7 @@ export default function Navbarlight() {
         <header className="header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky">
             <div className="container px-3">
                 <Link to='/' className="navbar-brand pe-3">
-                    <img src="assets/img/logolight.svg" width={180} alt="Logo" />
+                    <img src="assets/img/logolight1.svg" width={180} alt="Logo" />
                 </Link>
                 <div id="navbarNav" className="offcanvas offcanvas-end bg-dark">
                     <div className="offcanvas-header border-bottom border-light">
@@ -18,16 +18,16 @@ export default function Navbarlight() {
                     <div className="offcanvas-body mx-auto">
                         <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink to='/' className="nav-link">Home</NavLink>
+                                <Link to='/' className="nav-link">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <NavLink to='/about' className="nav-link">About Dwec</NavLink>
+                                <Link to='/about' className="nav-link">About Dwec</Link>
                             </li>
                             <li className="nav-item">
-                                <NavLink to='/faq' className="nav-link">FAQs</NavLink>
+                                <Link to='/faq' className="nav-link">FAQs</Link>
                             </li>
                             <li className="nav-item">
-                                <NavLink to='/contact' className="nav-link">Contact Us</NavLink>
+                                <Link to='/contact' className="nav-link">Contact Us</Link>
                             </li>
                         </ul>
                     </div>

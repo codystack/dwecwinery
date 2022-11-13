@@ -9,7 +9,7 @@ export default function Contact() {
         <Navbarlight />
 
         {/* Hero */}
-        <section className="dark-mode position-relative pt-5" style={{backgroundColor: '#151922'}}>
+        <section className="dark-mode position-relative pt-5" style={{backgroundColor: '#9a031e'}}>
             {/* Content */}
             <div className="container position-relative zindex-2 pt-5 pb-2 pb-md-0">
                 <div className="row justify-content-center pt-3 mt-3">
@@ -31,7 +31,7 @@ export default function Contact() {
                 </div>
             </div>
             {/* Bottom shape */}
-            <div className="d-flex position-absolute top-100 start-0 w-100 overflow-hidden mt-n5" style={{color: '#151922'}}>
+            <div className="d-flex position-absolute top-100 start-0 w-100 overflow-hidden mt-n5" style={{color: '#9a031e'}}>
                 <div className="position-relative start-50 translate-middle-x flex-shrink-0 mt-n5 mt-md-n3 mt-lg-n1" style={{width: '3788px'}}>
                     <svg xmlns="http://www.w3.org/2000/svg" width={3788} height={144} viewBox="0 0 3788 144"><path fill="currentColor" d="M0,0h3788.7c-525,90.2-1181.7,143.9-1894.3,143.9S525,90.2,0,0z" /></svg>
                 </div>
