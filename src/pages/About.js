@@ -20,8 +20,8 @@ export default function About() {
                         <div className="col-lg-7">
                             {/* Text */}
                             <h1 className="pb-2 pb-md-3 pt-5">About Dwec Winery</h1>
-                            <p className="fs-xll pb-4 mb-1 mb-md-2 mb-lg-3">Looking for where to buy champagne for your events or occasion? DWECwinery has the best prices compared to any other drink distributor in Nigeria. We also have a vast selection of domestic and imported brandy, whiskey, and mixers from around the world, perfect for stocking up your minibar at home or in the office. We’ve mastered the business of beer, spirit, and wine distribution in Nigeria, this enables us to serve you better, whether it’s red wine, white wine, or rose wine, we offer same-day delivery of your favorite drinks in selected states around Nigeria.</p>
-                            <Link className='btn btn-primary btn-lg'><i className="bx bx-chat fs-5 lh-1 me-1" />
+                            <p className="fs-xll pb-4 mb-1 mb-md-2 mb-lg-3">Looking for where to buy original drinks for your events or occasion? DWECwinery prices are highly competitive to the open market and our distribution channel guarantees you safe delivery. We also have a vast selection of domestic and imported brandy, whiskey, and mixers from around the world, perfect for stocking up your minibar at home or in the office. We’ve mastered the business of sale and distribution of drinks in Nigeria, this enables us to serve you better, we are affiliated with major drink companies inside and outside Nigeria to guarantee quality product that is been delivered to you. We offer same-day delivery of your favorite drinks in selected states around Nigeria.</p>
+                            <Link to='/contact'className='btn btn-primary btn-lg'><i className="bx bx-chat fs-5 lh-1 me-1" />
                                 &nbsp;Contact Us</Link>
                         </div>
                         
