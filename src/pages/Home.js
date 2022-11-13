@@ -94,17 +94,17 @@ export default function Home() {
                 }">
                     <div className="swiper-wrapper">
                     <div className="swiper-slide" data-swiper-tab="#screen-1">
-                        <div className="fs-xl text-muted mb-3 mb-lg-4">step 1</div>
+                        <div className="fs-xll text-muted mb-3 mb-lg-4">step 1</div>
                         <h3 className="mb-lg-4">Create your account</h3>
                         <p>Tellus est ullamcorper diam phasellus. Commodo acine pharetra quam lacinia fames quam nibh in elementum pulvinar consectetur adipiscing. Et viverra maecenas quis cras sed gravida volutpat, cursus enim enim ut nulla netus porta lacus.</p>
                     </div>
                     <div className="swiper-slide" data-swiper-tab="#screen-2">
-                        <div className="fs-xl text-muted mb-3 mb-lg-4">step 2</div>
+                        <div className="fs-xll text-muted mb-3 mb-lg-4">step 2</div>
                         <h3 className="mb-lg-4">Set up payment details</h3>
                         <p>Ac condimentum a nisl sagittis, interdum. Et viverra maecenas quis cras sed gravida volutpat, cursus enim. Enim ut nulla netus porta lacus diam. Risus massa fames metus lectus diam maecenas dui. Nibh morbi id purus eget tellus diam.</p>
                     </div>
                     <div className="swiper-slide" data-swiper-tab="#screen-3">
-                        <div className="fs-xl text-muted mb-3 mb-lg-4">step 3</div>
+                        <div className="fs-xll text-muted mb-3 mb-lg-4">step 3</div>
                         <h3 className="mb-lg-4">Start trading</h3>
                         <p>Risus massa fames metus lectus diam maecenas dui. Nibh morbi id purus eget tellus diam, integer blandit. Ac condimentum a nisl sagittis, interdum. Et viverra maecenas quis cras sed gravida volutpat, cursus enim. Enim ut nulla netus porta.</p>
                     </div>

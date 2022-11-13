@@ -21,7 +21,7 @@ export default function Faq() {
                                     <div className="card-body pb-3">
                                         <i className="bx bxs-phone-call d-block fs-2 text-primary mb-2 py-1" />
                                         <p className="fs-sm mb-2">Still have  questions?</p>
-                                        <a href="tel:+2348058232688" className="btn btn-link stretched-link px-0">
+                                        <a href="tel:+2347036254646" className="btn btn-link stretched-link px-0">
                                             Call us
                                             <i className="bx bx-right-arrow-alt fs-xl ms-2" />
                                         </a>
