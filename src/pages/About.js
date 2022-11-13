@@ -10,7 +10,7 @@ export default function About() {
         <Navbar />
             <section className="position-relative pt-5">
 
-                <div className="position-absolute top-0 start-0 w-100 bg-position-bottom-center bg-size-cover bg-repeat-0" style={{backgroundImage: 'url(assets/img/about/hero-bg.svg)'}}>
+                <div className="position-absolute top-0 start-0 w-100 bg-position-bottom-center bg-size-cover bg-repeat-0" style={{backgroundImage: 'url(assets/img/hero-bg.svg)'}}>
                     <div className="d-lg-none" style={{height: '960px'}} />
                     <div className="d-none d-lg-block" style={{height: '768px'}} />
                 </div>

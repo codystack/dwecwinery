@@ -12,7 +12,7 @@ export default function Footer() {
             </div>
             <ul className="nav justify-content-center pt-3 pb-4 pb-lg-5">
                 <li className="nav-item"><Link to='/terms' className="nav-link">Terms & Conditions</Link></li>
-                <li className="nav-item"><Link to='/privacy' className="nav-link">Privacy Policy</Link></li>
+                <li className="nav-item"><Link to='/privacy-policy' className="nav-link">Privacy Policy</Link></li>
                 <li className="nav-item"><Link to='/return-policy' className="nav-link">Return Policy</Link></li>
             </ul>
             <div className="d-flex flex-column flex-sm-row justify-content-center">
