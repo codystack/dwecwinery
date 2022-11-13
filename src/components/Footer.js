@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import OrderModal from '../modal/OrderModal'
 
 export default function Footer() {
   return (
     <>
+        <OrderModal />
+        
         {/* Footer */}
         <footer className="footer dark-mode bg-dark pt-5 pb-4 pb-lg-5">
             <div className="container text-center pt-lg-3">

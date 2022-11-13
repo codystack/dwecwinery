@@ -142,9 +142,19 @@
     <script src="assets/vendor/parallax-js/dist/parallax.min.js"></script>
     <script src="assets/vendor/rellax/rellax.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="//code.tidio.co/dswtr3lgehbreoq0h7vk0fzowjqtpumm.js" async></script>
 
     <!-- Main Theme Script -->
     <script src="assets/js/theme.min.js"></script>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            OpenBootstrapPopup();
+        };
+        function OpenBootstrapPopup() {
+            $("#orderModal").modal('show');
+        }
+    </script>
   </body>
 </html>
