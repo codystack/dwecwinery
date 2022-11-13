@@ -8131,6 +8131,10 @@ fieldset:disabled .btn {
     font-size: 1rem !important
 }
 
+.fs-xll {
+    font-size: 1.25rem !important
+}
+
 .fs-xl {
     font-size: 3.25rem !important
 }

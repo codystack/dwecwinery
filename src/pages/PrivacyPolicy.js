@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
                     <h2 className="" style={{fontFamily: 'pt-serif, serif', fontWeight: '700', fontStyle: 'normal'}}>Introduction</h2>
                 </div>
                 <div className="col-md-8 col-xl-8">
-                    <p className="fs-lg">We understand that by choosing DWEC WInery to deliver your groceries, you’ve placed a great deal
+                    <p className="fs-lg">We understand that by choosing DWEC Winery to deliver your groceries, you’ve placed a great deal
                       of trust in us. We also understand that you want the personal information you give us to be kept private
                       as well as secure. To reassure you that we feel the same way, here’s how we will and will not use the
                       personal information you give us.</p>
@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
                 </div>
                 <div className="col-md-8 col-xl-8">
                     <p className="fs-lg">We collect personally identifiable information (email address, name, phone number, etc.) from you when
-                      you set up an account with DWEC WInery. We may use this information to send you suggestions
+                      you set up an account with DWEC Winery. We may use this information to send you suggestions
                       about promotions and offers based on your interest.</p>
                 </div>
             </div>
@@ -77,8 +77,8 @@ export default function PrivacyPolicy() {
                 <div className="col-md-8 col-xl-8">
                     <p className="fs-lg">A "cookie" is a small piece of information stored by a Web server on a Web browser so it can be later
                       read back from that browser. Cookies are useful for enabling the browser to remember information
-                      specific to a given user. DWEC WInery places both permanent and temporary cookies in your
-                      computer's hard drive. DWEC WInery cookies do not contain any of your personally identifiable
+                      specific to a given user. DWEC Winery places both permanent and temporary cookies in your
+                      computer's hard drive. DWEC Winery cookies do not contain any of your personally identifiable
                       information.</p>
                 </div>
             </div>
@@ -99,7 +99,7 @@ export default function PrivacyPolicy() {
                       good faith belief that such disclosure is reasonably necessary to: enforce our Terms or Privacy Policy;
                       respond to claims that an advertisement, posting or other content violates the rights of a third party; or
                       protect the rights, property or personal safety of our users or the general public.</p>
-                    <p className="fs-lg">DWEC WInery and its affiliates will share some or all of your personal information with another
+                    <p className="fs-lg">DWEC Winery and its affiliates will share some or all of your personal information with another
                       business entity should we (or our assets) plan to merge with, or be acquired by that business entity.
                       Should such a transaction occur, that other business entity (or the new combined entity) will be required
                       to follow this privacy policy with respect to your personal information.</p>
@@ -112,7 +112,7 @@ export default function PrivacyPolicy() {
                 </div>
                 <div className="col-md-8 col-xl-8">
                     <p className="fs-lg">Our site links to other websites that may collect personally identifiable information about you. The
-                      DWEC WInery is not responsible for the privacy practices or the content of those linked websites.</p>
+                      DWEC Winery is not responsible for the privacy practices or the content of those linked websites.</p>
                 </div>
             </div>
 
@@ -121,16 +121,16 @@ export default function PrivacyPolicy() {
                     <h2 className="" style={{fontFamily: 'pt-serif, serif', fontWeight: '700', fontStyle: 'normal'}}>Choice/Opt-Out</h2>
                 </div>
                 <div className="col-md-8 col-xl-8">
-                    <p className="fs-lg">DWEC WInery provides all users with the opportunity to opt-out of receiving non-essential
+                    <p className="fs-lg">DWEC Winery provides all users with the opportunity to opt-out of receiving non-essential
                       (promotional, marketing-related) communications from us on behalf of our partners, and from us in
                       general, after setting up an account. If you want to remove your contact information from all The
-                      DWEC WInery lists and newsletters, please click on the unsubscribe button in our mails.</p>
+                      DWEC Winery lists and newsletters, please click on the unsubscribe button in our mails.</p>
                 </div>
             </div>
 
             <div className="row mb-5">
                 <div className="col-md-4 col-lg-4">
-                    <h2 className="" style={{fontFamily: 'pt-serif, serif', fontWeight: '700', fontStyle: 'normal'}}>Advertisements on DWEC WInery</h2>
+                    <h2 className="" style={{fontFamily: 'pt-serif, serif', fontWeight: '700', fontStyle: 'normal'}}>Advertisements on DWEC Winery</h2>
                 </div>
                 <div className="col-md-8 col-xl-8">
                     <p className="fs-lg">We use third-party advertising companies to serve ads when you visit our website. These companies
