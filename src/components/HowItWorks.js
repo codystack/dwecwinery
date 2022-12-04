@@ -1,18 +1,13 @@
-import React, { useState } from 'react'
-import SwiperCore, { Controller } from 'swiper';
+import React from 'react'
+import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-SwiperCore.use([Controller]);
 
 export default function HowItWorks() {
-
-    // store swiper instances
-  const [firstSwiper, setFirstSwiper] = useState(null);
-  const [secondSwiper, setSecondSwiper] = useState(null);
-
+  
   return (
     <>
         {/* How it works */}
@@ -23,7 +18,7 @@ export default function HowItWorks() {
             </div>
             <Swiper className="swiper mx-n2"
                 // install Swiper modules
-                modules={[Controller]}
+                modules={[Navigation]}
                 spaceBetween={8}
                 slidesPerView={3}
                 breakpoints={{
@@ -124,16 +119,13 @@ export default function HowItWorks() {
                             </div>
                             {/* Slider controls (Prev / next) */}
                             <div className="d-flex justify-content-center justify-content-md-start pt-2 pt-lg-3">
-                                <Swiper onSwiper={setFirstSwiper} controller={{ control: secondSwiper }}>
-                                    <button type="button" id="prev-screen" className="btn btn-prev btn-icon btn-sm me-2">
-                                        <i className="bx bx-chevron-left" />
-                                    </button>
-                                </Swiper>
-                                <Swiper onSwiper={setSecondSwiper} controller={{ control: firstSwiper }}>
-                                    <button type="button" id="next-screen" className="btn btn-next btn-icon btn-sm ms-2">
-                                        <i className="bx bx-chevron-right" />
-                                    </button>
-                                </Swiper>
+                                <button type="button" className="btn btn-prev btn-icon btn-sm me-2">
+                                    <i className="bx bx-chevron-left" />
+                                </button>
+                                
+                                <button type="button" className="btn btn-next btn-icon btn-sm ms-2">
+                                    <i className="bx bx-chevron-right" />
+                                </button>
                             </div>
                         </div>
                     </div>

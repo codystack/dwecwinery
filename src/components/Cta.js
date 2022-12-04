@@ -20,7 +20,7 @@ export default function Cta() {
                     <div className="col-xl-4 col-md-5 mt-n2 mt-md-0">
                     <h2 className="h1 text-center text-md-start mb-4 mb-lg-5">Download the <span className='text-primary'>DWEC Winery</span> Mobile App</h2>
                         <div className="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start pt-2 mt-4 mt-md-5">
-                            <a href="/" target="_blank" rel="noopener noreferrer" className="btn btn-dark btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3">
+                            <a href="https://apps.apple.com/us/app/dwec-winery/id6444702703" target="_blank" rel="noopener noreferrer" className="btn btn-dark btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3">
                                 <img src="assets/img/market/appstore-light.svg" className="light-mode-img" width={124} alt="App Store" />
                                 <img src="assets/img/market/appstore-dark.svg" className="dark-mode-img" width={124} alt="App Store" />
                             </a>

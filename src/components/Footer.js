@@ -19,7 +19,7 @@ export default function Footer() {
                 <li className="nav-item"><Link to='/return-policy' className="nav-link">Return Policy</Link></li>
             </ul>
             <div className="d-flex flex-column flex-sm-row justify-content-center">
-                <a href="/" className="btn btn-dark btn-lg px-3 py-2 me-sm-4 mb-3" target="_blank" rel="noopener noreferrer">
+                <a href="https://apps.apple.com/us/app/dwec-winery/id6444702703" className="btn btn-dark btn-lg px-3 py-2 me-sm-4 mb-3" target="_blank" rel="noopener noreferrer">
                     <img src="assets/img/market/appstore-light.svg" className="light-mode-img" width={124} alt="App Store" />
                     <img src="assets/img/market/appstore-dark.svg" className="dark-mode-img" width={124} alt="App Store" />
                 </a>

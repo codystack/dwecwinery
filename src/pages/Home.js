@@ -29,13 +29,13 @@ export default function Home() {
                     <h1 className="display-3 mb-4">Get the <br /><span className='text-primary'>DWEC Winery</span> Mobile App</h1>
                     <p className="fs-lg mb-0 d-md-none d-xl-block">Looking for where to buy champagne for your events or occasion? DWEC Winery has the best prices compared to any other drink distributor in Nigeria.</p>
                     <div className="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start pt-2 mt-4 mt-md-5">
-                        <a href="/" className="btn btn-dark btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3">
-                        <img src="assets/img/market/appstore-light.svg" className="light-mode-img" width={124} alt="App Store" />
-                        <img src="assets/img/market/appstore-dark.svg" className="dark-mode-img" width={124} alt="App Store" />
+                        <a href="https://apps.apple.com/us/app/dwec-winery/id6444702703" target="_blank" rel="noopener noreferrer" className="btn btn-dark btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3">
+                            <img src="assets/img/market/appstore-light.svg" className="light-mode-img" width={124} alt="App Store" />
+                            <img src="assets/img/market/appstore-dark.svg" className="dark-mode-img" width={124} alt="App Store" />
                         </a>
                         <a href="https://play.google.com/store/apps/details?id=com.dwecwinery.app" target="_blank" rel="noopener noreferrer" className="btn btn-dark btn-lg px-3 py-2 mb-3">
-                        <img src="assets/img/market/googleplay-light.svg" className="light-mode-img" width={139} alt="Google Play" />
-                        <img src="assets/img/market/googleplay-dark.svg" className="dark-mode-img" width={139} alt="Google Play" />
+                            <img src="assets/img/market/googleplay-light.svg" className="light-mode-img" width={139} alt="Google Play" />
+                            <img src="assets/img/market/googleplay-dark.svg" className="dark-mode-img" width={139} alt="Google Play" />
                         </a>
                     </div>
                 </div>
